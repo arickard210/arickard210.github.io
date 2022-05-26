@@ -140,7 +140,6 @@ li a {
     border: 4px rgba(227, 226, 226, 0.624) solid;
     border-radius: 20px;
     background-color:rgba(17, 11, 11, 0.216);
-    justify-content: center;
     text-align: center;
 }
 #mywork .double .work :hover {
@@ -148,9 +147,11 @@ li a {
 }
 #mywork .double .work p {
     display: relative;
-    padding: 5vh 5vw;
     color: #DEC3CA;
     font-weight: bold;
+    height: 100%;
+    border-radius: 20px;
+    padding: 5vh 5vw;
 }
 #mywork .double a {
     text-decoration: none;
@@ -158,19 +159,24 @@ li a {
 #mywork .double .one {
     grid-column: 1;
     grid-row: 1;
+    height: 120px;
 }
 #mywork .double .two {
     grid-column: 2;
     grid-row: 1;
+    height: 120px;
 }
 #mywork .double .three {
     grid-column: 1;
     grid-row: 2;
+    height: 120px;
 }
 #mywork .double .four {
     grid-column: 2;
     grid-row: 2;
+    height: 120px;
 }
+
 
 /* Contact Section */
 #contact {
