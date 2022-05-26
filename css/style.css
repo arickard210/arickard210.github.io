@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Oxygen", Arial, sans-serif;
+    color: #DEC3CA;
+    box-sizing: border-box;
+}
+body {
+    background: url(https://i.ibb.co/Cz8xmSV/portfolio-background.png)
+}
+html {
+    scroll-behavior: smooth;
+}
+p {
+    color: #e7e3e4;
+}
+
+/* Nav Section */
+nav .container {
+    display: flex;   
+    justify-content: space-between; 
+}
+#web-menu {
+    visibility: hidden;
+}
+.hamburger-container {
+    position: fixed;
+    width: 75px;
+    right: -20px;
+    top: 15px;
+    width: 80px;
+}
+#hamburger {
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    background-color: #DEC3CA;
+}
+.navbar {
+    position: fixed;
+    display: relative;
+    right: 10px;
+}
+.navbar #mobile-menu{
+    display: none;
+    position: absolute;
+    top: 55px;
+    right: 30px;
+    background-color: #000000;
+    padding: 10px;
+    width: 110px;
+}
+#mobile-menu li {
+    margin-right: 20px;  
+    list-style: none;
+    padding: 20px 0;
+
+}
+li a {
+    text-decoration: none;
+}
+#logo {
+    width: 80px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+/* Welcome Section */
+.welcome {
+    width: 100vw;
+    margin: 5vh auto;
+    padding: 25vh 0;
+}
+.welcome h1 {
+    text-align: center;
+    padding-top: 5%;
+}
+
+/* About section */
+#about {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#about .col1 {
+    justify-content: center;
+    margin-bottom: 3vh;
+}
+#about .col1 img {
+    width: 130px;
+}
+#about .col2 {
+    width: 80vw;
+    background-color: rgba(230, 229, 229, 0.216);
+    border-radius: 10px;
+    border: 4px rgba(227, 226, 226, 0.624) solid;
+}
+#about .col2 p {
+    padding: 10px 20px;
+}
+
+/* Projects Section */
+#mywork {
+    padding: 25vh 0;
+}
+#mywork .double {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+}
+#mywork .double .col1 {
+    justify-content: center;
+    width: 80vw;
+    margin-bottom: 3vh;
+    padding-bottom: 15vh;
+}
+#mywork h1 {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+#mywork .double .col1 p {
+    padding: 10px 20px;
+    background-color: rgba(230, 229, 229, 0.216);
+    border-radius: 10px;
+    border: 4px rgba(227, 226, 226, 0.624) solid;
+}
+#mywork .col2 {
+    padding: 0 5vw;
+}
+#mywork .double .wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+#mywork .double .work {
+    border: 4px rgba(227, 226, 226, 0.624) solid;
+    border-radius: 20px;
+    background-color:rgba(17, 11, 11, 0.216);
+    justify-content: center;
+    text-align: center;
+}
+#mywork .double .work :hover {
+    background-color: rgba(130, 126, 126, 0.216);
+}
+#mywork .double .work p {
+    display: relative;
+    padding: 5vh 5vw;
+    color: #DEC3CA;
+    font-weight: bold;
+}
+#mywork .double a {
+    text-decoration: none;
+}
+#mywork .double .one {
+    grid-column: 1;
+    grid-row: 1;
+}
+#mywork .double .two {
+    grid-column: 2;
+    grid-row: 1;
+}
+#mywork .double .three {
+    grid-column: 1;
+    grid-row: 2;
+}
+#mywork .double .four {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+/* Contact Section */
+#contact {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(230, 229, 229, 0.216);
+    border: 4px solid rgba(227, 226, 226, 0.624);
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 5vh;
+}
+
+#contact .col1 h1 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#contact .col1 p {
+    margin-left: 20%;
+    line-height: 2;
+    color: #DEC3CA
+}
+
+
+/* Media Queries for Tablets */
+@media (min-width: 700px) and (max-width: 1024px) {
+    #logo {
+        margin-left: 10px;
+    }
+    .hamburger-container {
+        visibility: hidden;
+    }
+    .navbar {
+        position: static;
+    }
+    .navbar #mobile-menu {
+        display: none;
+    }
+    .navbar #web-menu {
+        visibility: visible;
+        position: relative;
+        display: flex;
+        right: 50px;
+        top: 30px;
+        background-color: transparent;
+        width: 500px;
+        list-style: none;
+    }
+    #web-menu li {
+        width: 90px;
+        margin-right: 10px;
+    }
+    #about {
+        flex-direction: row;
+        display: flex;
+    }
+    #about .col1 {
+        margin-right: 0;
+        margin-bottom: 0;
+        padding-right: 2.5vw;
+    }
+    #mywork .double .wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        grid-auto-rows: minmax(100px, auto);
+    }
+    #about .col2 {
+        width: 60vw;
+        padding: 10px;
+    }
+    #contact .col1 {
+        justify-content: center;
+    }
+    #contact .col1 p {
+        text-align: center;
+        margin-left: 0;
+    }
+}
+
+/* Media Query for Computer */
+@media (min-width: 1025px) {
+    p {
+        font-size: 1.25rem;
+    }
+    a {
+        font-size: 1.25rem;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    #logo {
+        padding-left: 30px;
+        margin-left: 30px;
+    }
+    .welcome {
+        margin: 0;
+        padding: 0;
+        height: 35vh;
+    }
+    .welcome h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 4rem;
+        position: relative;
+        top: 5vh;
+    }
+    .hamburger-container {
+        visibility: hidden;
+    }
+    .navbar {
+        position: static;
+    }
+    .navbar #mobile-menu {
+        display: none;
+    }
+    .navbar #web-menu {
+        visibility: visible;
+        position: relative;
+        display: flex;
+        right: 50px;
+        top: 30px;
+        background-color: transparent;
+        width: 500px;
+        list-style: none;
+    }
+    #web-menu li {
+        width: 90px;
+        margin-right: 10px;
+    }
+    #about {
+        flex-direction: row;
+        display: flex;
+    }
+    #about .col1 {
+        margin-right: 0;
+        margin-bottom: 0;
+        padding-right: 2.5vw;
+    }
+    #about .col2 {
+        width: 60vw;
+        padding: 10px;
+    }
+    #contact .col1 {
+        justify-content: center;
+    }
+    #contact .col1 p {
+        text-align: center;
+        margin-left: 0;
+    }
+    #mywork {
+        /* background-color: rgba(0, 0, 0, 0.55); */
+        margin-top: 5vh;
+    }
+    #mywork .double {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    #mywork .double .col1 {
+        width: 25vw;
+        margin-left: 10px;
+    }
+    #mywork .double .col1 p {
+        line-height: 1.5;
+    }
+    #mywork .double .col2 {
+        width: 55vw;
+    }
+    #mywork .work p {
+        font-size: 1rem;
+    }
+    #mywork .double .wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+        grid-auto-rows: minmax(100px, auto);
+    }
+    #contact {
+        margin-top: 3vh;
+        width: 50%;
+    }
+    #contact .col1 {
+        padding-bottom: 30px;
+    }
+    #contact .col1 h1 {
+        padding: 30px;
+    }
+}

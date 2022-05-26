@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Rickard</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+    </style>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <img id="logo" src="https://i.ibb.co/V9SHX4Q/logo-alex.png" alt="Alex Rickard logo">
+            <div class="navbar">
+                <ul id="mobile-menu">
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#mywork">my work</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <li><a href="./resources/resume.pdf" download>resume</a></li>
+                    <li><a href="https://github.com/arickard210/Developer-Porfolio" target="_blank">github</a></li>
+                </ul>
+                <ul id="web-menu">
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#mywork">my work</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <li><a href="./resources/resume.pdf" download>resume</a></li>
+                    <li><a href="https://github.com/arickard210/Developer-Porfolio" target="_blank">github</a></li>
+                </ul>
+            </div>
+            <div class="hamburger-container">    
+                <svg id="hamburger" viewBox="0 0 100 80" width="40" height="40">
+                    <rect width="100" height="20"></rect>
+                    <rect y="30" width="100" height="20"></rect>
+                    <rect y="60" width="100" height="20"></rect>
+                </svg>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="welcome">
+            <h1>Welcome!</h1>
+        </div>
+        <div id="about">
+            <div class="col1">
+                <img id="profile" src="https://i.ibb.co/VQ8nVZS/picture.png" alt="picture of me">
+                <!-- <img id="star" src="./resources/star.png" alt=""> -->
+            </div>
+            <div class="col2">
+                <p>Quick learner who loves to be on the cutting edge of technology. I have a degree in Biochemistry but felt disconnected from my work. So I taught myself to code. I add exhuberance to every team I am a part of and never back down from a challenge. When I am stumped, I always come back with fresh ideas and the same solution-centered attitude. I am excited for you to be on my website! Check things out and let me know what you think!</p>
+            </div>
+        </div>
+        <div id="mywork">
+            <h1>My Projects!</h1>
+            <div class="double">
+                <!-- <div class="col1">
+                    <p>Coded from scratch with HTML/CSS/JS. I collaborated with a designer to create The Burger from their Figma file, I used inspiration from CodeCademy's "Build a website with HTML, CSS, and Github Pages" course to make the unversity webpage. The two emails were cloned from emails that I received in my personal inbox.</p>
+                </div> -->
+                <div class="col2 wrapper">
+                    <a href="https://www.codecademy.com/workspaces/62828577733b68a5929ee53a" target="blank"><div class="work one">
+                        <p>Restaurant Landing <br>Page</p>
+                    </div></a>
+                    <a href="https://www.codecademy.com/workspaces/6282915f87ef76ade42c8a88" target="blank"><div class="work two">
+                        <p>University Landing <br>Page</p>
+                    </div></a>
+                    <a href="https://www.codecademy.com/workspaces/6282981d64d22de6d9c9b2df" target="blank"><div class="work three">
+                        <p>Transaction Email</p>
+                    </div></a>
+                    <a href="https://www.codecademy.com/workspaces/628298a2733b68a5929f0444" target="blank"><div class="work four">
+                        <p>Promotion Email</p>
+                    </div></a>
+                </div>
+            </div>
+        </div>
+        <div id="contact">
+            <div class="col1">
+                <h1>contact me</h1>
+                <p><strong>Email:</strong> <a href="mailto:lxrickard@gmail.com">lxrickard@gmail.com</p>
+                <p><a href="https://www.linkedin.com/in/alex-rickard-2b4833232/" target="_blank">Linked In</a></p>
+                <p><a href="https://github.com/arickard210/Developer-Portfolio" target="_blank">Github</a></p>
+
+            </div>
+        </div>
+    </main>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+</html>
+
+<!-- Old Form; deleted due to insecure posting
+            <div class="col2">
+                <form action="mailto:lxrickard@gmail.com"
+                method="post"
+                enctype="multipart/form-data"
+                name="ContactForm">
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="email">Email address</label><br>
+                    <input type="text" id="email" name="email" required><br>
+                    <label for="description">Describe your inquiry</label><br>
+                    <textarea type="text" id="description" name="description" rows="5" placeholder="I would like to inquire about... (web development, email development, and/or etc..."></textarea><br>
+                    <input type="submit">
+                </form> 
+            </div>
+            -->
