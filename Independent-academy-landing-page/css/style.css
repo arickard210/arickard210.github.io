@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    background-color: #eee;
+    height: auto;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+nav .web {
+    display: none;
+}
+nav .mobile {
+    display: flex;
+    flex-direction: row;
+    height: 64px;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    max-width: 900px;
+    background-color: #fff;
+    border-top: 1px rgb(64, 64, 64) solid;
+}
+nav img {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1), 
+        -30px 0px 40px rgba(0, 0, 0, 0.1);
+}
+/* LANDING SECTION */
+#landing {
+    border-bottom: 1px rgb(64, 64, 64) solid;
+}
+
+#landing #landing-text {
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vh;    
+    background: url(/Independent-academy-landing-page/resources/images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#landing-text-inner {
+    background-color: #fff;
+    border-radius: 15px;
+    margin-left: 30px;
+    padding: 15px;
+    margin-top: 100px;
+    height: 110px;
+}
+#landing-text-inner h1 {
+    text-decoration: underline;
+    font-size: 1.35rem;
+    font-weight: bold;
+}
+#landing-text-inner h2 {
+    font-size: 1rem;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+#landing-text-inner .btn {
+    background-color: #3a3b3c;
+    width: 150px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+}
+#landing-text-inner a {
+    color: #fff;
+    text-decoration: none;
+}
+#landing-text-inner .btn:hover a{
+    background-color:#3a3b3cd6;
+    text-decoration: underline;
+}
+#landing-image {
+    background-image: url(/Independent-academy-landing-page/resources/images/banner.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+/* Information Section */
+#information {
+    background-color: rgb(222, 222, 222);
+    border-bottom: 1px rgb(64, 64, 64) solid;
+}
+#information #column1 {
+    display: none;
+}
+#information .block {
+    margin: 1rem 1rem 2rem 1rem;
+}
+#information .text-section {
+    margin-left: 1rem;
+}
+.text-section .bold {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.text-section .extra {
+    padding-bottom: 2rem;
+}
+.text-section a {
+    text-decoration: none;
+    color: rgb(48, 98, 139);
+}
+/* CURRICULUM SECTION */
+#curriculum {
+    display: flex;
+    flex-direction: column;
+}
+#curriculum .header {
+    text-align: center;
+    border-bottom: 1px rgb(64, 64, 64) dashed;
+}
+#curriculum h2 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+#curriculum .card {
+    margin: 1rem 1rem 0.5rem 1rem;
+    background-color:rgb(222, 222, 222);
+}
+.card h4 {
+    margin-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.35rem;
+}
+.card:hover {
+    background-color:rgba(64, 64, 64, 0.75);
+    box-shadow: -5px 5px 10px black;
+    cursor: pointer;
+}
+
+/* THESIS SECTION */
+#thesis {
+    background-color:rgb(222, 222, 222);
+    width: 100%;
+}
+#thesis .header {
+    padding-top: 0.2rem;
+}
+
+#thesis .header h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+#thesis .video-container {
+    margin: 1rem auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#thesis .video-container video {
+    width: 90vw;
+    max-width: 800px;
+}
+#thesis .text-section {
+    margin: 1rem;
+}
+#thesis .text-section p{
+    margin-left: 1rem;
+}
+#thesis .text-section a {
+    text-decoration: none;
+    color: rgb(48, 98, 139);
+    font-weight: bold;
+}
+/* FOOTER SECTION */
+footer {
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1), 
+        -30px 0px 40px rgba(0, 0, 0, 0.1); 
+    padding-bottom: 64px;
+    justify-content: center;
+}
+
+footer .text-section {
+    margin: 1rem;
+    padding-top: 0.5rem;
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 500px) {
+    /* NAV SECTION */
+    nav .web {
+        display: flex;
+        position: fixed;
+        width: 900px;
+        height: 64px;
+        background-color: white;
+    }
+    nav .mobile {
+        display: none;
+    }
+    nav .web img {
+        max-height: 32px;
+        margin: auto 0px auto 24px;
+        width: auto;
+    }
+    nav .web .text-section {
+        align-self: center;
+        min-width: 165px;
+    }
+    nav .web p {
+        font-size: 1.5rem;
+        line-height: 1.6;
+        margin: auto 0px;
+        color: grey;
+    }
+    
+    nav .web span {
+        color: black;
+        font-weight: bold;
+    }
+    nav ul {
+        margin: auto 10px;
+        text-align: left;
+        display: flex;
+        width: 300px;
+    }
+    nav ul li {
+        display: inline;
+        vertical-align: middle;
+        width: 75px;
+        list-style: none;
+    }
+    
+    nav ul li a {
+        color: rgb(34, 33, 33);
+        text-decoration: none;
+        font-size: 0.8rem;   
+        float: left;
+        margin-right: 1rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    nav ul li a:hover {
+        color: steelblue;
+    }
+    nav ul .short {
+        width: 50px;
+    }
+    nav ul .long {
+        width: 100px;
+    }
+
+
+/* Information Section */
+    #information {
+        display: grid;
+        grid-template-columns: 60fr 40fr;
+    }
+    #information #column1 {
+        display: flex;
+        flex-direction: column;
+    }
+    #information #column1 img {
+        margin: 1rem auto;
+    }
+    #information #column1 .text-section {
+        margin: 1rem;
+        text-align: justify;
+    }
+    #information #column1 .text-section h2 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        padding-bottom: 1rem;
+    }
+    #information #column2 {
+        display: flex;
+        flex-direction: column;
+    }
+    #information #column2 .block {
+        background-color: #eee;
+    }
+    #information #column2 .block p {
+        margin-right: 1rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    #information #column2 .block a:hover {
+        text-decoration: underline;
+        color: blue;
+    }
+    #landing-text-inner {
+        height: 150px;
+    }
+    #landing-text-inner h1 {
+        font-size: 1.5rem;
+    }
+    #landing-text-inner h2 {
+        font-size: 1.25rem;
+    }
+
+    /* footer section */
+    footer {
+        height: 0;
+    }
+    footer .text-section {
+        position: relative;
+        top: 1rem;
+    }
+}

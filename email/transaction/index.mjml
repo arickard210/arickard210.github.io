@@ -1,0 +1,87 @@
+<mjml>
+    <mj-head>
+    <mj-attributes>
+      <mj-text padding="0" />
+      <mj-class name="blue" color="skyblue" />
+      <mj-class name="big" font-size="20px" />
+      <mj-all font-family="Verdana" color="#3a3b3c" />
+    </mj-attributes>
+    </mj-head>
+
+    <mj-body>
+        <mj-section>
+            <mj-column>
+                <mj-image src="https://ci4.googleusercontent.com/proxy/a0FVo8jeQoe2cCG0nyaAYzCsw1O2XveyuYtcFKMnurZOBWXH0NG4_dX2ysnXuOLayTMZpLvOdk5F9Zb7-vwwBzjUiQiIu1CP7-poCg=s0-d-e1-ft#https://static.afterpay.com/email/logo-afterpay-black.png" alt="" width="200px"></mj-image>
+                <mj-text align="center" font-weight="bold" font-size="18px" font-family="Verdana">Hi, [customer name]<br></mj-text>
+                <mj-text align="center" font-weight="light" font-size="16px" font-family="Verdana" color="#3a3b3c"><br>Thanks for your payment! We've included details below for your reference.</mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section border-top="2px solid #b2fce4" border-left="1px solid #a9a9a9" border-right="1px solid #a9a9a9">
+            <mj-column width="100%">
+                <mj-image align="center" width="50px" src="https://ci6.googleusercontent.com/proxy/-6bV-lQvkJ02S8joR4Q2R79_t00x4COe_9gTKMWyhfHAhY59XpZEFaRjAVOE5MfVQP1FmVCUg2N706arcggsfA=s0-d-e1-ft#https://static.afterpay.com/icon/calendar.png"></mj-image>
+            </mj-column>
+        </mj-section>
+        <mj-section border-left="1px solid #a9a9a9" border-right="1px solid #a9a9a9" full-width="full-width" text-align="center">
+            <mj-column width="250px" >
+                <mj-text align="center"><br><br>Payment Date</mj-text>
+                <mj-text align="center" font-weight="bold"><br>Fri, 01/15/2022</mj-text>
+                <mj-text align="center"><br><br>Payment Method</mj-text>
+                <mj-text align="center" font-weight="bold"><br>VISA **9876</mj-text>
+            </mj-column>
+            <mj-column width="250px" >
+                <mj-text align="center"><br><br>Amount Paid</mj-text>
+                <mj-text align="center" font-weight="bold"><br>$45.00</mj-text>
+                <mj-text align="center"><br><br>Merchant Name</mj-text>
+                <mj-text align="center" font-weight="bold"><br>Global Foods, inc.</mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section border-left="1px solid #a9a9a9" border-right="1px solid #a9a9a9" full-width="full-width" border-bottom="1px solid #a9a9a9">
+            <mj-column width="100%" >
+                <mj-text align="center"><br><br>Afterpay Order Number</mj-text>
+                <mj-text align="center" font-weight="bold"><br>1887223000465</mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section full-width="full-width">
+            <mj-column width="100%">
+                <mj-text align="center">This is your last and final payment, and confirmation that your obligation has been paid in full.<br></mj-text>
+                <mj-text font-weight="bold" align="center"><br><br>Your Remaining Payment Schedule</mj-text>
+            </mj-column>
+            <mj-column width="50%" padding="25px" inner-background-color="#d3d3d3">
+                <mj-text align="center" color="blue"><br><br>Tue, 12/03/2021 </mj-text>
+                <mj-text align="center" font-weight="bold"><br>$45.00</mj-text>
+                <mj-text align="center" color="grey"><br>Paid<br><br></mj-text>
+            </mj-column>
+            <mj-column width="50%" padding="25px" inner-background-color="#d3d3d3">
+                <mj-text align="center" color="blue"><br><br>Tue, 12/17/2021 </mj-text>
+                <mj-text align="center" font-weight="bold"><br>$45.00</mj-text>
+                <mj-text align="center" color="grey"><br>Paid<br><br></mj-text>
+            </mj-column>
+            <mj-column width="50%" padding="25px" inner-background-color="#d3d3d3">
+                <mj-text align="center" color="blue"><br><br>Tue, 01/01/2022 </mj-text>
+                <mj-text align="center" font-weight="bold"><br>$45.00</mj-text>
+                <mj-text align="center" color="grey"><br>Paid<br><br></mj-text>
+            </mj-column>
+            <mj-column width="50%" padding="25px" inner-background-color="#d3d3d3">
+                <mj-text align="center" color="blue"><br><br>Tue, 01/15/2022 </mj-text>
+                <mj-text align="center" font-weight="bold"><br>$45.00</mj-text>
+                <mj-text align="center" color="grey"><br>Paid<br><br></mj-text>
+            </mj-column>
+
+            <mj-column width="100%"> 
+                <mj-text align="center" font-weight="bold">Manage your Account 24/7 </mj-text>
+                <mj-text padding-left="20px" padding-right="20px" align="center"><br>You can log in to your Afterpay account at any time to view your orders and manage your payments.</mj-text>
+                <mj-button background-color="#b2fce4" color="black">Log in to my Account</mj-button>
+                <mj-text padding-left="20px" padding-right="20px" align="center"><br><br>Any payments received will first be applied against any principal payments currently due, then against any principal past due, and then against any fees assessed. <br><br><br> Thank you for using Afterpay.</mj-text>
+                <mj-divider border-color="#3a3b3c"></mj-divider>
+
+                <mj-text align="center" font-weight="bold"><br>Need Help?</mj-text>
+                <mj-text text-decoration="underline" color="blue" align="center" ><a href="#"><br>Visit Our Page</a></mj-text>
+                <mj-text align="center" font-size="10px" color="#3a3b3c" padding-left="35px" padding-right="35px"> <br><br>&copy; 2022 Afterpay . 760 Market St. Floor 2, Unit 2.03, San Francisco, CA 94102 </mj-text>
+            
+                <mj-image src="https://ci5.googleusercontent.com/proxy/rZYsVgYS6iY541ubaxgT2Frp76LsEY4yVCnoNdsPmdpRYA6WGMDODzq-FJUWadByACtu07GPrXpiKLLPfyw_enTMjtURhhw58oT9KwN-hFKKww=s0-d-e1-ft#https://static.afterpay.com/email/Service-Email_APP-Install.png" width="500px" align="center"></mj-image>
+            </mj-column>            
+        </mj-section>
+    </mj-body>
+</mjml>

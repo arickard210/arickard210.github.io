@@ -1,0 +1,478 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    max-width: 1000px;
+    overflow-x: hidden;
+}
+
+/* Nav Section */
+
+.mobile {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    position: fixed;
+    background-color: #ffffff;
+    border-bottom: 1px solid black;
+    z-index: 1;
+}
+.mobile .hamburger-container {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px black solid;
+}
+.hamburger-container img {
+    width: 25px;
+    margin: auto;
+}
+.mobile .logo {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mobile .profile {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid black;
+}
+.profile .avatar {
+    margin-right: 15%;
+}
+
+/* Menu Subsection */
+#menu1 {
+    display: none;
+    position: absolute;
+    width: 50%;
+    list-style: none;
+    background-color: white;
+    border: black 2px solid;
+    z-index: 2;
+}
+#menu1 li {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+}
+#menu1 li a {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: black;
+    text-decoration: none;
+}
+/* Main Content Section */
+.content {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    position: relative;
+    top: 75px;
+}
+.content #booth {
+    width: 50%;
+    background: url(/The-burger-landing-page/resources/booth-crop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-right: 1px black solid;
+    height: 40vh;
+}
+
+/* Call to action subsection */
+.content .cta {
+    width: 50%;
+    background-color: #D2DD92;
+    height: 40vh;
+    text-align: center;
+}
+.content .cta .textBox {
+    text-align: center;
+    margin: 15px auto;
+}
+.content .cta .textBox h2 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+.content .cta .textBox p {
+    font-weight: bold;
+    font-size: 1.25;
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+.content .cta .btn {
+    background-color: #DD6031;
+    color: #FFFFFF;
+    font-weight: bold;
+    justify-self: center;
+    display: inline;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+}
+.content .cta .btn a {
+    color: white;
+    text-decoration: none;
+}
+/* slider sub-section */
+.content .double {
+    display: flex;
+    flex-direction: row;
+    height: 35vh;
+    width: 100vw;
+}
+
+.content .slider {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #D2DD92;
+    border-right: 1px black solid;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+}
+.slider .column1 {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 4%;
+}
+.column1 img {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 25px;
+}
+.slider .column2 {
+    width: 85%;
+    display: flex;
+    margin: auto;
+    margin-left: 4%;
+}
+.content .description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.description .header {
+    width: 100%;
+    padding-left: 4%;
+    padding-right: 8%;
+    padding-top: 4%;
+}
+.description .header .left {
+    float: left;
+    color:#dd6031;
+    margin-left: 4%;
+    margin-top: 4%;
+}
+.description .header .right {
+    float: right;
+    color:#dd6031;
+    margin-right: 4%;
+    margin-top: 4%;
+}
+
+.description .textBox {
+    width: 90%;
+    border: #dd6031 1px solid;
+    border-radius: 14px;
+    margin: 30px auto 20px auto;
+}
+.description .textBox p {
+    padding: 0.25rem;
+    font-size: 0.75rem;
+    text-align: center;
+}
+.description .double {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.description .info {
+    width: 30%;
+    margin-left: 4%;
+}
+.info img {
+    width: 15px;
+    margin-left: 4%;
+}
+.double .btn {
+    float: right;
+    margin-right: 8%;
+    width: 75%;
+    align-self: baseline;
+}
+.description .btn a {
+    display: inline-block;
+    min-width: 70px;
+    float: right;
+    color: white;
+    text-decoration: none;
+    background-color: #dd6031;
+    border-radius: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+/* Learn More Section */
+.content .about-us {
+    width: 100%;
+    height: 35vh;
+    background: url(/The-burger-landing-page/resources/diner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+.about-us .textBox {
+    width: 80vw;
+}
+.about-us .textBox p {
+    color: #d9dd92;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 2rem;
+}
+.about-us .btn {
+    margin-top: 30px;
+}
+.about-us .btn a {
+    background-color: #ffffff;
+    padding: 0.5rem 2rem;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+/* Media Query Section */
+@media (max-width: 700px) {
+    footer {
+        display: none;
+    }
+    nav .web {
+        display: none;
+    }        
+}
+
+@media (min-width: 700px) {
+    /* header section */
+    nav .mobile {
+        display: none;
+    }
+    nav .web {
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        border-bottom: 1px black solid;
+        width: 100vw;
+    }
+    .web .logo-container {
+        width: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-right: 1px solid black;
+    }
+    .web .logo-container img {
+        width: 83px;
+        padding: 1rem 0;
+    }
+    .web .web-menu {
+        display: flex;
+        width: 55%;
+        justify-content: center;
+        align-items: center;
+    }
+    .web .web-menu ul {
+        display: flex;
+        justify-content: space-around;
+        width: auto;
+        justify-self: center;
+        align-self: center;
+        flex-wrap: nowrap;
+    }
+    .web .web-menu ul li {
+        list-style: none;
+        padding: 0 0.5rem;
+    }
+    .web .web-menu ul li a {
+        color: black;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #dd6031;
+        font-weight: bold;
+    }
+    .web .sign-up {
+        width: 30%;
+        border-left: 1px black solid;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+    .web .sign-up p {
+        text-transform: lowercase;
+    }
+    .web .sign-up p a {
+        color: black;
+        text-decoration: none;
+    }
+    .web .sign-up .btn {
+        justify-content: center;
+        align-items: center;
+    }
+    .web .sign-up .btn a {
+        color: #dd6031;
+        background-color: #d9dd92;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 0.5rem 1rem;
+        border-radius: 15px;
+    }
+    .web .sign-up img {
+        float: right;
+        margin-right: 1rem;
+        width: 30px;
+    }
+    /* Main Content Section */
+    .content {
+        top: 0;
+    }
+    .content #booth {
+        height: 90vh;
+        /* background-position: bottom -100px right 0px; */
+    }
+    .content .cta {
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .content .cta .textBox {
+        width: 90%;
+    }
+    .content .cta .textBox h2 {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    .content .cta .textBox p {
+        font-size: 2rem;
+    }
+    .content .cta .btn {
+        justify-content: center;
+        align-items: center;
+        background-color: #d9dd92;
+    }
+    .content .cta .btn a {
+        background-color: #dd6031;
+        border-radius: 15px;
+        padding: 0.5rem 1rem;
+    }
+    .content .double {
+        height: 40vh;
+    }
+    .content .double .slider {
+        border-right: none;
+    }
+    .content .double .slider .column2 {
+        margin-left: 25%;
+    }
+    .column2 .img-container {
+        width: 40%;
+    }
+    .column2 img {
+        width: 100%;
+    }
+    .content .description {
+        height: 40vh;
+    }
+    .content .description .textBox {
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content .description .textBox p {
+        padding: 2rem 0;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .content .descripiton .double .btn a {
+        padding: 0.5rem 1rem;
+    }
+    .content .about-us {
+        height: 100vh;
+    }
+    /* Footer section */
+    footer {
+        display: flex;
+        width: 100%;
+        height: 75px;
+    }
+    footer .socials {
+        width: 20%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .socials img {
+        height: 30px;
+    }
+    footer .menu {
+        width: 65%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .menu ul {
+        display: flex;
+    }
+    footer .menu ul li {
+        margin-right: 2rem;
+        list-style: none;
+    }
+    footer .menu ul li a {
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    footer .logo {
+        width: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .logo-container img {
+        width: 60px;
+        padding: 1rem;
+    }
+
+}
+@media (min-width: 900px) {
+    .web .web-menu ul li {
+        list-style: none;
+        padding: 0 1rem;
+    }
+}

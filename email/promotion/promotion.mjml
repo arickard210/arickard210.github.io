@@ -1,0 +1,105 @@
+<mjml>
+    <mj-head>
+        <mj-attributes>
+            <mj-text padding="0px" font-family="Verdana" align="center"/>
+        </mj-attributes>
+    </mj-head>
+
+    <mj-body>
+        <mj-section full-width="full-width">
+            <mj-column>
+                <mj-image width="100px" alt="" href="https://www.klarna.com/us" src="https://ci4.googleusercontent.com/proxy/z1SG07p5B9Y5C1zdQS8XFSFMlSH95KNwxfew0JPlzs-HQ2qD9fZX6VZWF2rPAqV4hnPP5tUujvLZIrTjMJmfVDfr-Ivxd3PEcUiVEzQI-tWi1cQIQ4xk3YfSjOp3IBV2k3uHI_vlBbHUCu1e0SlurHvaCV4mRVndsz77reViXLI3f_l74rBHYw=s0-d-e1-ft#https://cdn.braze.eu/appboy/communication/assets/image_assets/images/6202428d472d397bf0bbaae1/original.png?1644315277"></mj-image>
+            </mj-column>
+            <mj-column width="100%">
+                <mj-text padding="0 15%"font-size="1.5rem" font-weight="bold" line-height="2" margin-top="25px" margin-bottom="25px">Don't Settle for Less</mj-text>
+            </mj-column>
+            <mj-column width="100%">
+                <mj-image min-width="100%" href="https://www.klarna.com/us" src="https://ci5.googleusercontent.com/proxy/uKpsQeMwp25ZJNsJILLgkh4ty9mN5kzyLcydycaJhGgdi6OD-T3VWOWig--wnW6IPbtcOxMS-FUKkGEJlyxaxf85RYHyDmo61MkdP34I0mpkOw0rB3ge165RfzwZlmg2wlLh4FZMy3LbWhYhyvzHPEHZNJnm_4c2MH5DnssJKRETeY8Wq1Pv0Us_a-4y7XXaNJXNQCmSDdXJQQfV=s0-d-e1-ft#https://locker.klarna.com/m/4b64427af72c6c65/original/DeviceImage_Desktop_4x3_BoostCampaign_ZoomerSpectacle_texture02_LemonBar_US_EN.png" alt=""></mj-image>
+            </mj-column>
+        </mj-section>
+        <mj-section full-width="full-width">
+            <mj-column >
+                <mj-text padding-left="15%" padding-right="15%" font-size="1.125rem" color="#3a3b3c" line-height="1.75" font-weight="light">
+                    The shortcut to smoooth shopping anywhere is right in your pocket. Give it a go with your next purchase by following these 3 simple steps.
+                </mj-text>
+                <mj-text padding="0 15%" font-size="1.25rem" font-weight="bold" line-height="1.5" padding-top="10px">
+                    How to shop any store in the Klarna app.
+                    <br><br>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section direction="ltr">
+            <mj-column width="50%">
+                <mj-image src="https://ci6.googleusercontent.com/proxy/rXP17Pr6sRvqNaMCB8ceK7ZXEf6ZAZeyHUK626_SOoCzQN8alwaiZlLUlT_df-Ru_G45cmmfx6NFDVXCBblOTDFRt0XoVZquXqlpocV0FE8GvOIJPM9g7JMbp29EIG9p2l9SIQB1lp6Gomf9VH0qh24WGQU3WenB-Vt_W2XxYH-n0t-6yznJtZrNwfiujVSgO529VjA=s0-d-e1-ft#https://locker.klarna.com/m/720653e4333769be/Mobile_Snippet_4x5-Snippet_4x5_AppHome_SuperSimplified_Simple_Email_CA_EN_V1-png.png" alt=""></mj-image>
+            </mj-column>
+            <mj-column width="50%" padding-left="25px">
+                <mj-text padding-top="100px" font-size="1.125rem" font-weight="bold" align="left">Step 1.</mj-text>
+                <mj-text padding-right="15%"  align="left"><br>Use the search bar in the home tab to browse any store.<br></mj-text>
+                <mj-button padding-left="15px" align="left"  href="#" font-weight="bold" border-radius="15px" color="black" background-color="#d9d9d985">Get Started</mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-section direction="rtl">
+            <mj-column width="50%">
+                <mj-image src="https://ci3.googleusercontent.com/proxy/NYtKLinkCeTUk0HyAt7vDblOGmE9skP6w2LoOsV2e-FnbGZa-jLSg7WYqSZZoe2n_-FfwdQX1PaBnTzJAPT2q8f72mfaR1Y_vo_qJ11_wgFt3KUu1b8Xua1ts7nkb74oKExf1pSyCuNeZP_iySjZlzmnM_9YvgL--qUTelN9Wp4gVRg4G-Gam5GAW9B2QrQg_Wa1fHr4PxAH=s0-d-e1-ft#https://locker.klarna.com/m/cad8e43138b58efa/Mobile_Snippet_4x5-Snippet_4x5_Storyboard2_SuperSimplified_Simple_Email_CA_EN_V1-png.png" alt=""></mj-image>
+            </mj-column>
+            <mj-column width="50%" padding-left="25px">
+                <mj-text padding-top="100px" font-size="1.125rem" font-weight="bold" align="left">Step 2.</mj-text>
+                <mj-text padding-right="15%" align="left"><br>Add the items you want to buy to your cart and head to checkout.<br></mj-text>
+                <mj-button padding-left="15px" align="left" href="#" font-weight="bold" border-radius="15px" background-color="#d9d9d985" color="black" >Get Started</mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-section direction="ltr">
+            <mj-column width="50%" padding-left="15px">
+                <mj-image alt="" src="https://ci6.googleusercontent.com/proxy/KTrCtPkRwFzj3oS1N_pOAaFF90mQlVnPQ9pLBqGbtP2H2soIWDpzTLhBYfidq0tdykpYJgsLPwDghps6R9IY_xGwYphpir0awPJFfKZBMh_YdNXnzLT_VL3zvWscwb5O05hs5_oRDLXkAaYaz_tLN4ByqAF_ejxhX_LXDlAFn-dygJnqlufBDYpA5J5_D1tJqEbrwKd-91aC=s0-d-e1-ft#https://locker.klarna.com/m/24bac233c1607186/Mobile_Snippet_4x5-Snippet_4x5_Storyboard3_SuperSimplified_Simple_Email_CA_EN_V1-png.png"></mj-image>
+            </mj-column>
+            <mj-column width="50%" padding-left="25px">
+                <mj-text padding-top="100px" align="left" font-size="1.125rem" font-weight="bold">Step 3.</mj-text>
+                <mj-text padding-right="15%" align="left"><br>Tap the pink button at the bottom of your screen to split your purchase into 4 interest-free payments.<br></mj-text>
+                <mj-button padding-left="15px" align="left" href="#" font-weight="bold" border-radius="15px" background-color="#d9d9d985" color="black">Get Started</mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+                <mj-divider border-width="0.25px" border-color="#efecf0" />
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column width="100%">
+                <mj-social icon-size="30px" mode="horizontal" align="left">
+                    <mj-social-element name="instagram" href="#" background-color="lightgrey"></mj-social-element>
+                    <mj-social-element name="facebook" href="#" background-color="lightgrey"></mj-social-element>
+                    <mj-social-element name="linkedin" href="#" background-color="lightgrey"></mj-social-element>
+                    <mj-social-element name="twitter" href="#" background-color="lightgrey"></mj-social-element>
+                    <mj-social-element name="youtube" href="#" background-color="lightgrey"></mj-social-element>
+                </mj-social> 
+            </mj-column>
+            <mj-column width="100%">
+                <mj-image align="left" width="100px" alt="klarna logo" href="https://www.klarna.com/us" src="https://ci4.googleusercontent.com/proxy/z1SG07p5B9Y5C1zdQS8XFSFMlSH95KNwxfew0JPlzs-HQ2qD9fZX6VZWF2rPAqV4hnPP5tUujvLZIrTjMJmfVDfr-Ivxd3PEcUiVEzQI-tWi1cQIQ4xk3YfSjOp3IBV2k3uHI_vlBbHUCu1e0SlurHvaCV4mRVndsz77reViXLI3f_l74rBHYw=s0-d-e1-ft#https://cdn.braze.eu/appboy/communication/assets/image_assets/images/6202428d472d397bf0bbaae1/original.png?1644315277"></mj-image>
+            </mj-column>
+            <mj-column width="100%" >
+                <mj-text color="3a3b3c" padding="0 20px" align="left"><br>Get Klarna app for: <a text-decoration="underline" text-color="3a3b3c" href="#">iOS</a>  |  <a text-decoration="underline" color="3a3b3c" href="#">Android</a></mj-text> 
+
+            </mj-column>
+        </mj-section>
+        <mj-section width="100%" margin-top="25px" margin-bottom="25px" padding="0 20px">
+            <mj-column width="50%">
+                <mj-text align="left"><a href="#" color="#3a3b3c">Klarna.com<br></a></mj-text>
+                <mj-text align="left"><a href="#" color="#3a3b3c"><br>Customer Service<br></a></mj-text>
+            </mj-column>
+            <mj-column width="50%">
+                <mj-text align="left"><a href="#" color="#3a3b3c"><br>Privacy<br></a></mj-text>
+                <mj-text align="left"><a href="#" color="#3a3b3c"><br>Unsubscribe<br></a></mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section width="100%" >
+            <mj-column padding="0 20px">
+                <mj-text align="left" color="#3a3b3c">Klarna Inc.</mj-text>
+                <mj-text align="left" color="#3a3b3c">629 N. High Street, Suite 300</mj-text>
+                <mj-text align="left" color="#3a3b3c">Columbus, OH, 43215</mj-text>
+                <mj-text align="left" color="#3a3b3c">United States<br></mj-text>
+                <mj-text align="left" color="#3a3b3c"><br><br>Deals advertised in this email are offered directly by the retailer and are subject to their terms. Klarna does not guarantee any deals and may get a commission. Some of the deals offered in this email feature products with limited quantities. Prices, quantities and offers subject to change. Restrictions and reward limits may apply. See deals page in the <span>Klarna app</span> and retailer's terms for more info. To access deals, you must have the <span><a href="#" color="#3a3b3c">Klarna app</a></span> downloaded and be using an Android or IOS mobile device.<br></mj-text>
+                <mj-text align="left" color="#3a3b3c"><br>Monthly financing through Klarna issued by WebBank, member FDIC. Other CA resident loans made or arranged pursuant to a California Financing Law license. This is a marketing email.<br></mj-text>
+            <mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
