@@ -122,7 +122,6 @@ li a {
     margin: 5vh 0;
 }
 #mywork .wrapper {
-    width: 60%;
     margin: auto;
     display: grid;
     gap: 2rem;
@@ -214,6 +213,10 @@ li a {
         grid-template-columns: repeat(2, 1fr);
         gap: 30px;
         grid-auto-rows: minmax(100px, auto);
+    }
+    #mywork .work p {
+        font-size: 1rem;
+        padding: 3rem;
     }
     #about .col2 {
         width: 60vw;
@@ -318,7 +321,8 @@ li a {
         width: 55vw;
     }
     #mywork .work p {
-        font-size: 1rem;
+        font-size: 2rem;
+        padding: 5rem;
     }
     #mywork .double .wrapper {
         display: grid;
