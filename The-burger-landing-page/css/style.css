@@ -369,6 +369,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
     .content .cta .textBox {
         width: 90%;
@@ -383,7 +384,7 @@ body {
     .content .cta .btn {
         justify-content: center;
         align-items: center;
-        background-color: #d9dd92;
+        max-width: 50%;
     }
     .content .cta .btn a {
         background-color: #dd6031;
