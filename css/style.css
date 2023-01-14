@@ -341,3 +341,30 @@ li a {
         padding: 30px;
     }
 }
+
+/* Case Study Section- Mobile */
+.case-study {
+    text-align: center;
+    margin: 7%;
+}
+.btn {
+    margin: 10%;
+}
+.btn button {
+    padding: 2vh 4vw;
+    color: #006600;
+    border-radius: 5px;
+    border: none;
+    background-color: #DEC3CA;
+}
+.title {
+    padding: 10vh 0;
+}
+.heading-container {
+    margin: 10vh auto 2vh;
+}
+.body-container {
+    width: 85%;
+    text-align: center;
+    margin: auto;
+}
