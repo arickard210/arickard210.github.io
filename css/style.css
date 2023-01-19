@@ -114,28 +114,33 @@ li a {
 
 /* Projects Section */
 #mywork {
-    margin-top: 25vh;
-    margin-bottom: 25vh;
+    margin: 25vh auto;
 }
 #mywork h1 {
     text-align: center;
     margin: 5vh 0;
 }
 #mywork .wrapper {
-    margin: auto;
     display: grid;
-    gap: 2rem;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: minmax(100px, auto);
+    grid-template-columns: 150px 150px;
     align-items: center;
-    overflow: visible;
+    overflow: hidden;
+    justify-content: center;
 }
 #mywork .wrapper .work {
-    padding: 5vh 5vw;
+    margin: 5vh 2vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     border: 5px rgba(227, 226, 226, 0.624) solid;
     background-color:rgba(53, 53, 53, 0.216);
     border-radius: 20px;
+    word-break: break-word;
+}
+.url {
+    word-break: break-word;
 }
 .wrapper a {
     text-decoration: none;
@@ -145,6 +150,7 @@ li a {
     font-weight: bolder;
     color: white;
     font-size: larger;
+    background-color:rgba(53, 53, 53, 0.500)
 }
 
 /* Contact Section */
@@ -158,14 +164,16 @@ li a {
     margin: 0 auto;
     margin-bottom: 5vh;
 }
-
+#contact .col1 {
+    margin: 2vh auto;
+}
 #contact .col1 h1 {
     font-size: 1.5rem;
     text-align: center;
+    margin-bottom: 3vh;
 }
 
 #contact .col1 p {
-    margin-left: 20%;
     line-height: 2;
     color: #DEC3CA
 }
@@ -208,7 +216,10 @@ li a {
         margin-bottom: 0;
         padding-right: 2.5vw;
     }
-    #mywork .double .wrapper {
+    #about .col1 img {
+        width: 20vw;
+    }
+    #mywork .wrapper {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 30px;
@@ -291,8 +302,11 @@ li a {
         margin-bottom: 0;
         padding-right: 2.5vw;
     }
+    #about .col1 img {
+        width: 15vw;
+    }
     #about .col2 {
-        width: 60vw;
+        width: 40vw;
         padding: 10px;
     }
     #contact .col1 {
@@ -302,33 +316,8 @@ li a {
         text-align: center;
         margin-left: 0;
     }
-    #mywork {
-        /* background-color: rgba(0, 0, 0, 0.55); */
-        margin-top: 5vh;
-    }
-    #mywork .double {
-        display: flex;
-        flex-direction: row-reverse;
-    }
-    #mywork .double .col1 {
-        width: 25vw;
-        margin-left: 10px;
-    }
-    #mywork .double .col1 p {
-        line-height: 1.5;
-    }
-    #mywork .double .col2 {
-        width: 55vw;
-    }
-    #mywork .work p {
-        font-size: 2rem;
-        padding: 5rem;
-    }
-    #mywork .double .wrapper {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 50px;
-        grid-auto-rows: minmax(100px, auto);
+    #mywork .wrapper {
+        grid-template-columns: 400px 400px;
     }
     #contact {
         margin-top: 3vh;
@@ -345,10 +334,10 @@ li a {
 /* Case Study Section- Mobile */
 .case-study {
     text-align: center;
-    margin: 7%;
+    margin: 0 7%;
 }
 .btn {
-    margin: 10%;
+    margin: 5% 0 10%;
 }
 .btn button {
     padding: 2vh 4vw;
@@ -358,7 +347,7 @@ li a {
     background-color: #DEC3CA;
 }
 .title {
-    padding: 10vh 0;
+    padding: 5vh 0 2vh;
 }
 .heading-container {
     margin: 10vh auto 2vh;
@@ -367,4 +356,9 @@ li a {
     width: 85%;
     text-align: center;
     margin: auto;
+}
+.tech-stack {
+    width: 70%;
+    margin: 0 auto;
+    font-size: .8rem;
 }
