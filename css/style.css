@@ -346,6 +346,9 @@ li a {
     border: none;
     background-color: #DEC3CA;
 }
+button:hover {
+    cursor: pointer;
+}
 .title {
     padding: 5vh 0 2vh;
 }
