@@ -139,6 +139,14 @@ li a {
     border-radius: 20px;
     word-break: break-word;
 }
+#mywork .wrapper .work p {
+    word-break: break-word;
+    width: 90%;
+    margin: 0 auto;
+}
+#mywork .wrapper .work .url p {
+    word-break: break-all;
+}
 .url {
     word-break: break-word;
 }
