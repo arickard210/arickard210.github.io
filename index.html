@@ -8,8 +8,8 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
     </style>
+    <link rel="shortcut icon" href="https://i.ibb.co/V9SHX4Q/logo-alex.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut icon" href="./resources/favicon-portfolio.png">
 </head>
 <body>
     <nav>
@@ -20,15 +20,15 @@
                     <li><a href="#about">about</a></li>
                     <li><a href="#mywork">my work</a></li>
                     <li><a href="#contact">contact</a></li>
-                    <li><a href="./resources/AlexRickard-WebDeveloper.pdf" download>resume</a></li>
+                    <li><a href="./resources/AlexRickard-FullStackWebDeveloper.pdf" download>resume</a></li>
                     <li><a href="https://github.com/lxrickard/portfolio" target="_blank">github</a></li>
                 </ul>
                 <ul id="web-menu">
                     <li><a href="#about">about</a></li>
                     <li><a href="#mywork">my work</a></li>
                     <li><a href="#contact">contact</a></li>
-                    <li><a href="./resources/AlexRickard-WebDeveloper.pdf" download>resume</a></li>
-                    <li><a href="https://github.com/arickard210/arickard210.github.io" target="_blank">github</a></li>
+                    <li><a href="./resources/AlexRickard-FullStackWebDeveloper.pdf" download>resume</a></li>
+                    <li><a href="https://github.com/lxrickard/portfolio" target="_blank">github</a></li>
                 </ul>
             </div>
             <div class="hamburger-container">    
@@ -58,24 +58,81 @@
         <div id="mywork">
             <h1>My Projects!</h1>
             <div class="wrapper">
-                <a href="./pokemonAppCaseStudy.html" target="blank"><div class="work">
-                    <p>Pokemon App (React)</p>
-                </div></a>
-                <a href="./respiteCareCaseStudy.html" target="blank"><div class="work">
+                <div class="work" id="pokemon">                
+                    <a href="./pokemonAppCaseStudy.html" target="blank">
+                    <p>Pokemon App (React)</p></a>
+                    <div class="hover">
+                        <button> <a href="https://lxrickard-pokemon.netlify.app"><p>Live Version 1.0</p></a> </button>
+                        <button> <a href="./pokemonAppCaseStudy.html"><p>Case Study</p></a></button>
+                    </div>
+                </div>
+                <div class="work" id="respite">                
+                    <a href="./respiteCareCaseStudy.html" target="blank">
+                    <p>Trinity Heights Respite Care</p></a>
+                    <div class="hover">
+                        <button> <a href="https://www.threspitecare.org"><p>Live Version</p></a> </button>
+                        <button> <a href="./respiteCareCaseStudy.html"><p>Case Study</p></a></button>
+                    </div>
+                </div>
+                <div class="work" id="burger">                
+                    <a href="./The-burger-landing-page/index.html" target="blank">
+                    <p>The Burger Restaurant</p></a>
+                    <div class="hover">
+                        <button> <a href="./The-burger-landing-page/index.html"><p>Live Version</p></a> </button>
+                    </div>
+                </div>
+                <div class="work" id="academy">                
+                    <a href="./Independent-academy-landing-page/index.html" target="blank">
+                    <p>Pokemon App (React)</p></a>
+                    <div class="hover">
+                        <button> <a href="./Independent-academy-landing-page/index.html"><p>Live Version </p></a> </button>
+                    </div>
+                </div>
+                <div class="work" id="promotion">                
+                    <a href="./pokemonAppCaseStudy.html" target="blank">
+                    <p>Promotion email</p></a>
+                    <div class="hover">
+                        <button> <a href="./email/promotion/promotion.html"><p>Live Example</p></a> </button>
+                        </div>
+                </div>
+                <div class="work" id="transaction">                
+                    <a href="./email/transaction/transaction.html" target="blank">
+                    <p>E-Commerce Email</p></a>
+                    <div class="hover">
+                        <button> <a href="./email/transaction/transaction.html"><p>Live Example</p></a> </button>
+                    </div>
+                </div>
+                <!-- <a href="./respiteCareCaseStudy.html" target="blank"><div class="work" id="respite">
                     <p>Trinity Heights Respite Care</p>
+                    <div class="hover">
+                        <button> <a href="https://www.threspitecare.org">Live Version</a> </button>
+                        <button> <a href="./respiteCareCaseStudy.html">Case Study</a></button>
+                    </div>
                 </div></a>
-                <a href="./The-burger-landing-page/index.html" target="blank"><div class="work">
+                <a href="./The-burger-landing-page/index.html" target="blank"><div class="work" id="burger">
                     <p>TheBurger.com</p>
+                    <div class="hover">
+                        <button> <a href="./The-burger-landing-page/index.html">Live Version</a> </button>
+                        </div>
                 </div></a>
-                <a href="./Independent-academy-landing-page/index.html" target="blank"><div class="work url">
+                <a href="./Independent-academy-landing-page/index.html" target="blank"><div class="work url" id="academy">
                     <p>IndependentAcademy.edu</p>
+                    <div class="hover">
+                        <button> <a href="./Independent-academy-landing-page/index.html">Live Version</a> </button>
+                        </div>
                 </div></a>
-                <a href="./email/promotion/promotion.html" target="blank"><div class="work">
+                <a href="./email/promotion/promotion.html" target="blank"><div class="work" id="promotion">
                     <p>Promotion Email</p>
+                    <div class="hover">
+                        <button> <a href="./email/promotion/promotion.html">Live Version</a> </button>
+                        </div>
                 </div></a>
-                <a href="./email/transaction/transaction.html" target="blank"><div class="work">
+                <a href="./email/transaction/transaction.html" target="blank"><div class="work" id="transaction">
                     <p>E-Commerce Email</p>
-                </div></a>
+                    <div class="hover">
+                        <button> <a href="./email/transaction/transaction.html">Live Version</a> </button>
+                        </div>
+                </div></a> -->
             </div>
         </div>
         <div id="contact">
@@ -93,20 +150,3 @@
 
 </body>
 </html>
-
-<!-- Old Form; deleted due to insecure posting
-            <div class="col2">
-                <form action="mailto:lxrickard@gmail.com"
-                method="post"
-                enctype="multipart/form-data"
-                name="ContactForm">
-                    <label for="name">Name</label><br>
-                    <input type="text" id="name" name="name"><br>
-                    <label for="email">Email address</label><br>
-                    <input type="text" id="email" name="email" required><br>
-                    <label for="description">Describe your inquiry</label><br>
-                    <textarea type="text" id="description" name="description" rows="5" placeholder="I would like to inquire about... (web development, email development, and/or etc..."></textarea><br>
-                    <input type="submit">
-                </form> 
-            </div>
-            -->

@@ -142,17 +142,53 @@ li a {
 .url {
     word-break: break-word;
 }
-.wrapper a {
+/* hiding and displaying the hyperlinks on mouseover */
+#mywork .wrapper .work .hover {
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.wrapper .work a {
     text-decoration: none;
     display: block;
+    position: absolute;
 }
 .wrapper .work:hover {
-    font-weight: bolder;
-    color: white;
-    font-size: larger;
-    background-color:rgba(53, 53, 53, 0.500)
+    cursor: pointer;
 }
-
+.wrapper .work:hover a {
+    visibility: hidden;
+}
+.wrapper .work:hover .hover {
+    visibility: visible !important;
+}
+.wrapper .work:hover .hover button {
+    visibility: visible !important;
+    max-width: 100%;
+    min-width: 150px;
+    height: 5vh;
+    margin: 1vh;
+    border: 1px solid black;
+    box-shadow: 5px 5px 3px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper .work:hover button a p {
+    visibility: visible;
+    color: rgb(6, 6, 85);
+}
+.wrapper .work:hover button:hover {
+    background-color: rgb(6, 6, 85);
+    box-shadow: 3px 3px 1px black;
+    border: 2px solid black;
+}
+.wrapper .work:hover button:hover a p {
+    color: #DEC3CA;
+}
 /* Contact Section */
 #contact {
     display: flex;
