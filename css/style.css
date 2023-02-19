@@ -143,6 +143,7 @@ li a {
     word-break: break-word;
     width: 90%;
     margin: 0 auto;
+    font-size: 1rem;
 }
 #mywork .wrapper .work .url p {
     word-break: break-all;
