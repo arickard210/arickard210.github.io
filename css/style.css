@@ -145,58 +145,18 @@ li a {
     margin: 0 auto;
     font-size: 1rem;
 }
+#mywork a {
+    text-decoration: none;
+}
 #mywork .wrapper .work .url p {
     word-break: break-all;
 }
 .url {
     word-break: break-word;
 }
-/* hiding and displaying the hyperlinks on mouseover */
+/* setting hover states to hidden so default no display on mobile */
 #mywork .wrapper .work .hover {
-    visibility: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-.wrapper .work a {
-    text-decoration: none;
-    display: block;
-    position: absolute;
-}
-.wrapper .work:hover {
-    cursor: pointer;
-}
-.wrapper .work:hover a {
-    visibility: hidden;
-}
-.wrapper .work:hover .hover {
-    visibility: visible !important;
-}
-.wrapper .work:hover .hover button {
-    visibility: visible !important;
-    max-width: 50%;
-    min-width: 150px;
-    height: 8vh;
-    margin: 1vh;
-    border: 1px solid black;
-    box-shadow: 5px 5px 3px black;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.wrapper .work:hover button a p {
-    visibility: visible;
-    color: rgb(6, 6, 85);
-}
-.wrapper .work:hover button:hover {
-    background-color: rgb(6, 6, 85);
-    box-shadow: 3px 3px 1px black;
-    border: 2px solid black;
-}
-.wrapper .work:hover button:hover a p {
-    color: #DEC3CA;
+    display: none;
 }
 /* Contact Section */
 #contact {
@@ -223,6 +183,56 @@ li a {
     color: #DEC3CA
 }
 
+/* Media Query for hover states that don't work on mobile */
+@media (min-width: 700px) {
+    /* hiding and displaying the hyperlinks on mouseover */
+    #mywork .wrapper .work .hover {
+        visibility: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .wrapper .work a {
+        text-decoration: none;
+        display: block;
+        position: absolute;
+    }
+    .wrapper .work:hover {
+        cursor: pointer;
+    }
+    .wrapper .work:hover a {
+        visibility: hidden;
+    }
+    .wrapper .work:hover .hover {
+        visibility: visible !important;
+    }
+    .wrapper .work:hover .hover button {
+        visibility: visible !important;
+        max-width: 50%;
+        min-width: 150px;
+        height: 8vh;
+        margin: 1vh;
+        border: 1px solid black;
+        box-shadow: 5px 5px 3px black;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper .work:hover button a p {
+        visibility: visible;
+        color: rgb(6, 6, 85);
+    }
+    .wrapper .work:hover button:hover {
+        background-color: rgb(6, 6, 85);
+        box-shadow: 3px 3px 1px black;
+        border: 2px solid black;
+    }
+    .wrapper .work:hover button:hover a p {
+        color: #DEC3CA;
+    }
+}
 
 /* Media Queries for Tablets */
 @media (min-width: 700px) and (max-width: 1024px) {
@@ -286,6 +296,7 @@ li a {
         text-align: center;
         margin-left: 0;
     }
+    
 }
 
 /* Media Query for Computer */
