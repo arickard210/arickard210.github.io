@@ -175,9 +175,9 @@ li a {
 }
 .wrapper .work:hover .hover button {
     visibility: visible !important;
-    max-width: 100%;
+    max-width: 50%;
     min-width: 150px;
-    height: 5vh;
+    height: 8vh;
     margin: 1vh;
     border: 1px solid black;
     box-shadow: 5px 5px 3px black;
