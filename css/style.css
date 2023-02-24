@@ -6,7 +6,8 @@
     box-sizing: border-box;
 }
 body {
-    background: url(https://i.ibb.co/Cz8xmSV/portfolio-background.png)
+    /* background: url(https://i.ibb.co/Cz8xmSV/portfolio-background.png) */
+    background-color: #152748;
 }
 html {
     scroll-behavior: smooth;
@@ -68,10 +69,11 @@ li a {
 .welcome {
     width: 100vw;
     margin: 5vh auto;
-    padding: 25vh 0;
+    height: 100vh;
+    padding-top: 5vh;
+    text-align: center;
 }
 .welcome h1 {
-    text-align: center;
     padding-top: 5%;
 }
 
@@ -96,7 +98,9 @@ li a {
     border: 4px rgba(227, 226, 226, 0.624) solid;
 }
 #about .col2 p {
-    padding: 10px 20px;
+    padding: 20px 20px;
+    font-size: 1.25rem;
+    font-family: monospace;
 }
 /* #about .col2 .btn {
     justify-self: center;
