@@ -332,6 +332,7 @@ li a {
     }
     #about {
         margin-top: 40vh;
+        padding-top: 10vh;
     }
     .hamburger-container {
         visibility: hidden;
