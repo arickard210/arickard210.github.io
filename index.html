@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alex Rickard</title>
+    <title>Alex Rickard's Portfolio</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
     </style>
+    <link rel="shortcut icon" href="https://i.ibb.co/V9SHX4Q/logo-alex.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -19,15 +20,15 @@
                     <li><a href="#about">about</a></li>
                     <li><a href="#mywork">my work</a></li>
                     <li><a href="#contact">contact</a></li>
-                    <li><a href="./resources/resume.pdf" download>resume</a></li>
-                    <li><a href="https://github.com/arickard210/arickard210.github.io" target="_blank">github</a></li>
+                    <li><a href="./resources/AlexRickard-FullStackWebDeveloper.pdf" download>resume</a></li>
+                    <li><a href="https://github.com/lxrickard/portfolio" target="_blank">github</a></li>
                 </ul>
                 <ul id="web-menu">
                     <li><a href="#about">about</a></li>
                     <li><a href="#mywork">my work</a></li>
                     <li><a href="#contact">contact</a></li>
-                    <li><a href="./resources/resume.pdf" download>resume</a></li>
-                    <li><a href="https://github.com/arickard210/arickard210.github.io" target="_blank">github</a></li>
+                    <li><a href="./resources/AlexRickard-FullStackWebDeveloper.pdf" download>resume</a></li>
+                    <li><a href="https://github.com/lxrickard/portfolio" target="_blank">github</a></li>
                 </ul>
             </div>
             <div class="hamburger-container">    
@@ -42,33 +43,69 @@
 
     <main>
         <div class="welcome">
+            <img id="profile" src="https://i.ibb.co/VQ8nVZS/picture.png" alt="picture of me">
             <h1>Welcome!</h1>
         </div>
         <div id="about">
             <div class="col1">
-                <img id="profile" src="https://i.ibb.co/VQ8nVZS/picture.png" alt="picture of me">
+                <h2>About Me:</h2>
                 <!-- <img id="star" src="./resources/star.png" alt=""> -->
             </div>
             <div class="col2">
-                <p>I am a curious problem-solver, I don't hesitate to ask the questions that will move my project in the right direction. While lacking a computer science degree, I still stand out for two reasons. One, I know how to learn efficiently, I graduated Magna Cum Laude with a bachelor's in biochemistry in three years. Two, I am eager to code professionally; I work full-time delivering packages for Amazon and still find the energy and enthusiasm to code after a ten-hour shift. I can't wait to code full-time! </p>
+                <p>Thank you for taking the time to view my portfolio! You can reach me in my email or twitter at the bottom of this page!<br></p>
+                <p> I am a highly motivated researcher and builder of modern web applications. I don't believe in problems, only puzzles. Otherwise everything stays a problem! <br></p>
+                <p>I specialize in the MERN (MongoDB, Express, React, Node.js) stack but have experience with building custom WordPress templates in PHP, coding games in Python and Pygame, and creating email templates in HTML as well.<br></p>
+                <p> I am aspiring to be a software engineer: I want to help build the software that connects people to eachother and empowers people to do what they thought was impossible.</p>
                 <!-- <div class="btn"><a href="mailto:lxrickard@gmail.com"> Email me! </a></div> -->
             </div>
         </div>
         <div id="mywork">
             <h1>My Projects!</h1>
             <div class="wrapper">
-                <a href="./The-burger-landing-page/index.html" target="blank"><div class="work">
-                    <p>Restaurant Website</p>
-                </div></a>
-                <a href="./Independent-academy-landing-page/index.html" target="blank"><div class="work">
-                    <p>University Website</p>
-                </div></a>
-                <a href="./email/transaction/transaction.html" target="blank"><div class="work">
-                    <p>Transaction Email</p>
-                </div></a>
-                <a href="./email/promotion/promotion.html" target="blank"><div class="work">
-                    <p>Promotion Email</p>
-                </div></a>
+                <div class="work" id="pokemon">                
+                    <a href="./pokemonAppCaseStudy.html" target="blank">
+                    <p>Guess that Pokemon! (React)</p></a>
+                    <div class="hover">
+                        <button> <a href="https://lxrickard-pokemon.netlify.app"><p>Live Version 1.0</p></a> </button>
+                        <button> <a href="./pokemonAppCaseStudy.html"><p>Case Study</p></a></button>
+                    </div>
+                </div>
+                <div class="work" id="respite">                
+                    <a href="./respiteCareCaseStudy.html" target="blank">
+                    <p>Respite Care (WordPress)</p></a>
+                    <div class="hover">
+                        <button> <a href="https://getrespitecare.org"><p>Live Version</p></a> </button>
+                        <button> <a href="./respiteCareCaseStudy.html"><p>Case Study</p></a></button>
+                    </div>
+                </div>
+                <div class="work" id="burger">                
+                    <a href="./The-burger-landing-page/index.html" target="blank">
+                    <p>The Burger Restaurant </p></a>
+                    <div class="hover">
+                        <button> <a href="./The-burger-landing-page/index.html"><p>Live Version</p></a> </button>
+                    </div>
+                </div>
+                <div class="work url" id="academy">                
+                    <a href="./Independent-academy-landing-page/index.html" target="blank">
+                    <p>Independent Academy</p></a>
+                    <div class="hover">
+                        <button> <a href="./Independent-academy-landing-page/index.html"><p>Live Version </p></a> </button>
+                    </div>
+                </div>
+                <div class="work" id="promotion">                
+                    <a href="./email/promotion/promotion.html" target="blank">
+                    <p>Promotion email</p></a>
+                    <div class="hover">
+                        <button> <a href="./email/promotion/promotion.html"><p>Live Example</p></a> </button>
+                        </div>
+                </div>
+                <div class="work" id="transaction">                
+                    <a href="./email/transaction/transaction.html" target="blank">
+                    <p>E-Commerce Email</p></a>
+                    <div class="hover">
+                        <button> <a href="./email/transaction/transaction.html"><p>Live Example</p></a> </button>
+                    </div>
+                </div>
             </div>
         </div>
         <div id="contact">
@@ -76,7 +113,7 @@
                 <h1>contact me</h1>
                 <p><strong>Email:</strong> <a href="mailto:lxrickard@gmail.com">lxrickard@gmail.com</p>
                 <p><a href="https://www.linkedin.com/in/alex-rickard-2b4833232/" target="_blank">Linked In</a></p>
-                <p><a href="https://github.com/arickard210/arickard210.github.io" target="_blank">Github</a></p>
+                <p><a href="https://github.com/lxrickard/portfolio" target="_blank">Github</a></p>
             </div>
         </div>
     </main>
@@ -86,20 +123,3 @@
 
 </body>
 </html>
-
-<!-- Old Form; deleted due to insecure posting
-            <div class="col2">
-                <form action="mailto:lxrickard@gmail.com"
-                method="post"
-                enctype="multipart/form-data"
-                name="ContactForm">
-                    <label for="name">Name</label><br>
-                    <input type="text" id="name" name="name"><br>
-                    <label for="email">Email address</label><br>
-                    <input type="text" id="email" name="email" required><br>
-                    <label for="description">Describe your inquiry</label><br>
-                    <textarea type="text" id="description" name="description" rows="5" placeholder="I would like to inquire about... (web development, email development, and/or etc..."></textarea><br>
-                    <input type="submit">
-                </form> 
-            </div>
-            -->

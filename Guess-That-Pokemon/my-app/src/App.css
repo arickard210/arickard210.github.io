@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+  border: 0.25px solid #0084ff;
+  background: linear-gradient(to bottom, #5a5aff, #0084ff);
+  font-family: 'Poppins';
+}
+.incorrect {
+  background: red;
+}
+/* Pokemon Section */
+.PokemonContainer {
+  height: 40vh;
+  width: 80vw;
+  max-width: 300px;
+  background-color: #e9e0c9;
+  margin: 10vh auto;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+}
+.PokemonContainer.true { 
+  background-color: green;}
+.PokemonContainer.false { 
+  background-color: #ec0909}
+.PokemonContainer img {
+  height: 25vh;
+  padding: 7.5vh 0;
+  z-index: 5;
+  position: relative;
+}
+
+/* Input Section */
+.InputComponent {
+  display: flex;
+  width: 80vw;
+  margin: 5vh auto;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.InputField {
+  width: 80%;
+}
+
+.input-label {
+  color: #f5f5f5;
+  font-size: 1.5rem;
+}
+
+.input-textBox {
+  border-radius: 20px;
+  width: 80%;
+  max-width: 400px;
+  height: 5vh;
+  padding-left: 3vw;
+  border: none;
+  font-size: 1.5rem;
+  margin: 5vh auto;
+}
+.input-textBox:focus {
+  outline-color: black;
+}
+.search-button {
+  width: 72px;
+  height: 64px;
+  text-align: center;
+  background-color: #e4000f;
+  margin: 0 auto;
+  border-radius: 7.5px;
+}
+.img-button {
+  background-color: #e4000f;
+}
+/* button actions */
+.search-button:active {
+  background-color: #b4000c;
+}
+.img-button:active {
+  background-color: #b4000c;
+}

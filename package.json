@@ -1,0 +1,20 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Contributors: Alex Rickard, jr. web developer; Shalese Carter-Thompson, UX designer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lxrickard/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lxrickard/Portfolio/issues"
+  },
+  "homepage": "https://github.com/lxrickard/Portfolio#readme"
+}
